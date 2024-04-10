@@ -1,0 +1,39 @@
+{
+  "name": "aeonaxy_backend_project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsdsahil/Aeonaxy_backend_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsdsahil/Aeonaxy_backend_project/issues"
+  },
+  "homepage": "https://github.com/nsdsahil/Aeonaxy_backend_project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailgun.js": "^10.2.1",
+    "mongoose": "^8.3.0",
+    "mongoose-paginate-v2": "^1.8.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "resend": "^2.0.0",
+    "start": "^5.1.0"
+  }
+}
